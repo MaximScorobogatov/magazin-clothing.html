@@ -1,0 +1,1310 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+/*-- Заголовок--*/
+
+.fon-0 {
+  background-color: rgb(255, 255, 255);
+  display: flex;  
+  width: 100%;
+  height: 82px; 
+  flex-wrap: wrap;
+}
+
+
+.flex-container {
+  
+  width: 1024px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+  }
+
+
+  .Text-Aditii {
+   
+    display: flex;
+    font-size: 49px;
+    font-family: 'Lobster', cursive;
+    color: rgb(60, 195, 181);
+    line-height: 0.388;
+    margin-left: 25px;    
+    align-items: center;     
+    justify-content: space-between;
+    margin-top: 25px;  
+   }
+
+   .Text-Aditii :hover {
+    color:rgb(161, 161, 161);    
+   }
+
+   .Text-Aditii-2 {
+    text-decoration:none ;
+    font-family: 'Lobster', cursive;
+    color:rgb(60, 195, 181);
+   }
+  
+  .Text-Dollar-Basket{ 
+           
+    display: flex;
+    font-size: 33px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(161, 161, 161);
+    margin-right: 21px;
+    color: rgb(161 161 161);        
+    align-items: center;
+    justify-content: flex-end;     
+  }
+
+    .Basket{     
+     padding: 5px ;    
+    }    
+
+    .text-300 {      
+      display: flex;
+      font-size: 33px;
+      font-family: 'Bebas Neue', cursive;
+      color: rgb(161, 161, 161);
+      margin-right: 21px;
+      color: rgb(161 161 161);        
+      align-items: center;
+      justify-content: flex-end;   
+      padding-left: 10px;
+      padding-top: 10px; 
+    }
+    
+  .Text-Dollar-Basket :active {
+    background-color:DarkGray
+    }
+
+  .Shop_now {
+        
+    font-family: "BebasNeue";
+    color: rgb(255, 255, 255);
+    line-height: 0.704;
+    text-align: left;    
+    left: 614.315px;
+    top: 457.397px;
+    z-index: 22;
+  }
+  
+/*-- Навигация кнопок--*/
+
+  
+  .menu{
+    background-color:rgb(76,207,193);
+    width:100%;
+    
+    padding: 10px 10px 10px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .flex-container-main {
+
+    background-color:rgb(76,207,193);
+    width:90%;
+    /*height: 34px;*/
+    padding: 9px 9px 9px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .main-nav {
+
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    background-color:rgb(76,207,193);    
+    width: 1024px; 
+    flex-wrap: wrap;       
+  }
+   
+ 
+
+  .main-nav li a  {
+      
+    font-size: 21px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    line-height: 0.905;
+    padding: 0 19px 0 19px;
+    margin: 0 1px 0 1px;
+    display: flex;
+    background-color: rgb(76,207,193);
+    border-right: 1px solid rgb(255, 255, 255);
+    text-decoration: none;    
+}
+    
+  /*вложенность функции для всех кнопок*/ 
+  .main-nav li a:active {
+  background-color:DarkGray
+  }
+
+  
+
+/*-- Блок с содержимым-1 --*/
+  .fon {
+  width: 100%;
+  background-color:rgb(64,201,183);
+  }
+
+   .flex-container-2 {
+    background-color:rgb(64,201,183);
+    display: flex;    
+    justify-content:center;           
+   /* width: 1024px;*/width: 100%;
+    padding: 50px 50px 50px 0px;
+    margin:0 auto;
+    margin-bottom: 30px;
+    }
+    
+    .logo {
+
+      display:flex;
+      list-style: none;
+      justify-content: flex-start;
+      background-color:rgb(64,201,183);
+      padding-left:75px;  
+      padding-right: 96px;    
+                
+    }
+    
+      .text-5  {
+        font-size: 61px;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(255, 255, 255);
+        line-height: 0.885;
+        text-align: left;
+        padding:0 17px 0 17px;
+        margin:0 4px 0 1px;
+        display: flex;
+        background-color:rgb(64,201,183);       
+        text-align: left;   
+        margin-bottom:45px;         
+                     
+        }
+           .text-5-5  {
+            font-size: 17px;     
+            color: rgb(255, 255, 255);
+            line-height: 1.647;
+            text-decoration: none;
+            padding:0 17px 0 17px;
+            margin:0 4px 0 1px;
+            display: flex;
+            background-color:rgb(64,201,183);
+            width: 402px;            
+            text-align: left;     
+            font-family: 'Open Sans', sans-serif;            
+            }
+
+            .btn {
+              display: flex;
+              border-style: solid;
+              font-size: 27px;
+              font-family: 'Bebas Neue', cursive;
+              color: rgb(255, 255, 255);
+              line-height: 0.704;
+              text-align: left;
+              border-width: 3px;
+              border-color: rgb(255, 255, 255);
+              border-radius: 5px;
+              background-color: rgba(255, 255, 255, 0);
+              width: 137px;
+              height: 44px;
+              align-items: center;
+              justify-content: center;
+              margin-top: 60px;
+              margin-left: 17px;
+              text-decoration:none;               
+            }
+            
+   
+          /* создаем активную кнопу с цветом*/ 
+          .btn:active{
+            background-color:DarkGray
+            }
+  
+
+      /*------------------------- Блок с содержимым-2------------------------------*/
+            .fon-1 {
+              background-color:white;
+              display: flex;
+              align-items: center;                
+              width:100%;
+              /*height: 191px;*/
+              padding: 0px 0px 0px 0px;
+              margin: 0 auto; 
+          }
+
+            .flex-container-3 {
+
+              background-color:white;
+              display: flex;
+              align-items: center;                
+             /* width:100%;    */          
+              padding: 0px 0px 0px 0px;
+              margin: 0 auto; 
+              padding-left: 26px;           
+          }
+
+/* --устройство картинки-бренд-- */
+
+            .flex-element-3 {
+            color:rgb(255, 255, 255);
+            text-decoration: none;           
+            display: flex;
+            background-color:white;
+            justify-content:center;
+            width:34%;               
+            margin: 0 auto; 
+                              
+            }
+
+
+     /* --устройство описание- бренд--*/
+
+            .text-brend-little{ 
+              
+            display: flex;
+            font-size: 27px;
+            font-family: 'Bebas Neue', cursive;
+            width: 77px;               
+            color: rgb(175, 175, 175);
+            line-height: 0.926;            
+            margin-right: 21px;
+            align-items: center;
+            justify-content: flex-end;
+            color:  rgb(161, 161, 161);
+            line-height: 0.926;            
+            padding-top: 22px;
+            margin-left:8px;
+          }
+              
+          .btn-little {
+            display: flex;
+            border-radius: 3px;
+            border-style: solid;
+            font-size: 19px;
+            font-family: 'Bebas Neue', cursive;
+            color: rgb(255, 255, 255);
+            line-height: 1;
+            text-align: left;
+            border-width: 3px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color:rgb(60, 195, 149);
+            width: 59px;
+            height: 32px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 22px;
+            margin-left: 8px;
+            text-decoration:none;         
+          } 
+
+          .btn-little:active{
+            background-color:DarkGray
+            }
+                   
+          .flex-element-4 {
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            padding:0 17px 0 17px;
+            margin:0 4px 0 1px;
+            display: flex;
+            background-color:white;
+            width:34%;   
+            border-left:2px solid rgb(231 231 231);
+            border-right:2px solid rgb(231 231 231);
+            }
+
+            .flex-element-5 {
+              color:rgb(255, 255, 255);
+              text-decoration: none;
+              padding:0 17px 0 17px;
+              margin:0 4px 0 1px;
+              display: flex;
+              background-color:white;
+              width:34%;     
+              }
+
+     .item-1 {
+      
+      display:inline-block;
+      align-items: center;
+      justify-content: space-between;          
+      width:100%;
+      padding: 0px 0px 0px 0px;
+      background-color:rgb(64,201,183);
+      }
+
+     
+
+      /*------------------------- Блок с содержимым-3-------*/
+       .fon-2 {
+        background-color:rgb(64,201,183);
+        display: flex;                
+        width:100%;
+       }
+
+      .flex-container-4 {
+        background-color:rgb(64,201,183);
+        width: 1024px;
+        margin-left: 58px; 
+        margin:0 auto;               
+      }      
+         
+        .flex-element-4-1 {
+          display: flex;          
+          padding: 8px 0px 8px 0px;        
+          font-size: 31px;
+          font-family: 'Bebas Neue', cursive;
+          color: rgb(255, 255, 255);
+          margin-left: 54px;
+        }
+                                 
+ /*------------------------- Блок с содержимым-4------------------------------*/
+        
+
+.fon-3 {
+  background-color: white;
+  display: flex;    
+  margin:0 auto;
+  width: 100%;   
+}
+         
+  .flex-container-5 {
+    background-color: white;
+  display: flex;    
+  margin:0 auto;
+  width: 1024px;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left:25px;     
+    }
+
+
+
+    .flex-element-9 {
+      
+      display: flex;      
+      flex-direction: row;
+      width: 256px;
+      height: 263px;
+      margin: 25px;     
+      margin-top: 45px;
+      flex-direction: column;
+      background-color: rgb(60,195,149);
+    }
+
+  .flex-element-9-1 {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 256px;
+  height: 255px;
+  padding-top: 29px;  
+  padding: 70px;
+  flex-direction: column;
+  background-color: white;
+}
+
+    /* устройство картинки*/
+
+    .text-brend-big {
+         
+      display: flex;
+      font-size: 27px;
+      font-family: 'Bebas Neue', cursive;
+      width: 154px;               
+      color: rgb(175, 175, 175);
+      line-height: 0.926;          
+      align-items: center;      
+      color:  rgb(161, 161, 161);
+      line-height: 0.926;      
+      padding-top: 25px;
+          }
+
+/* КНОПКА*/
+          .btn-little-2 {
+            display: flex;
+            border-radius: 3px;
+            border-style: solid;
+            font-size: 19px;
+            font-family: 'Bebas Neue', cursive;
+            color: rgb(255, 255, 255);
+            line-height: 1;
+            text-align: left;
+            border-width: 3px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color:rgb(60, 195, 149);
+            width: 74px;
+            height: 34px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            margin-left: 8px;
+            text-decoration:none; 
+            
+          }
+          .btn-little-2:active{
+            background-color:DarkGray
+            }
+          
+          
+            .flex-element-3-3-2 {
+             display:flex;
+             width: 130px;  
+            align-items: center;
+
+            }
+
+           .text-dollar-small{
+
+            display:flex;
+            font-family:'Bebas Neue', cursive;   
+            align-items: center;   
+            font-size: 27px;  
+            color: rgb(175, 175, 175);
+           }
+
+          .flex-element-10 {
+      
+            display: flex;      
+            flex-direction: row;
+            width: 256px;
+            height: 263px;
+            margin: 25px;     
+            margin-top: 45px;
+            flex-direction: column;
+            background-color: rgb(60,195,149);
+          
+          }
+
+            .flex-element-10-1 {
+              border-left: 1px solid grey;
+              border-right: 1px solid grey;
+              border-top: 1px solid grey;  
+              display: flex;
+              justify-content: center;
+              flex-direction: row;
+              width: 256px;
+              height: 255px;
+              padding-top: 29px;  
+              padding: 70px;
+              flex-direction: column;
+              background-color: white;
+            }
+
+
+
+
+
+                       
+/*-- Оформление подвала--*/
+
+.footer {
+
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:rgb(64,201,183);
+  width:100%; 
+}
+
+  .flex-container-6 {                                                                                                                 
+  color:white;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:rgb(64,201,183);
+  /*width: 1024px; */ 
+  margin:0 auto;
+  justify-content: space-between;
+  padding-left:26px;
+   }   
+
+  .flex-element-6 {
+  color:white;  
+  display:flex;
+  background-color:rgb(64,201,183);     
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex; 
+  margin-top: 38px;   
+  margin-bottom:41px ;
+  font-size: 27px;   
+  }
+
+  .flex-element-6-1-1 {
+    color:white;        
+    display:flex;
+    background-color:rgb(64,201,183);       
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex; 
+    margin-top: 40px;   
+    margin-bottom:41px ;  
+    }
+
+
+  .flex-element-6-1-2 {
+    color:white;           
+    display:flex;
+    background-color:rgb(64,201,183);       
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex; 
+    margin-top: 40px;   
+    margin-bottom:41px ; 
+    margin-right:183px;
+    font-size: 27px;
+    }
+    
+  .text-6 {
+  font-size: 27px;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 0.926;
+  color:white;
+  text-decoration: none;
+  padding:0 17px 0 17px;
+  margin-top:41px;
+  display: flex;
+  background-color:rgb(64,201,183);
+  width:100%;   
+  text-decoration: none;
+  }
+
+  .text-6-1>li  {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.867;
+  padding:0 17px 0 17px;
+  margin:0 4px 0 1px;
+  display: flex;
+  background-color:rgb(64,201,183);
+  width:100%;     
+  }
+
+  .text-6-1>li :hover {
+    background-color: rgba(255,255,255, 0.9);
+    border-radius: 3px;
+    color:rgb(64,201,183);
+    font-weight: 900;
+
+  }
+
+
+.decoration-none  {
+  text-decoration:none; 
+  color: rgb(255, 255, 255); 
+ 
+}
+
+
+
+  .copyright {
+    display:flex;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.867;       
+    height: 46px;
+    background-color:rgb(45,168,155);
+    align-items: center;
+  }
+  
+    .text-copyright {
+      margin:0 auto;
+
+    }
+
+
+
+
+
+
+
+
+
+
+                            /* Адаптация под планшет*/
+
+    @media all and (min-width: 768px) and (max-width: /*800px*/960px) { 
+
+                               /*--Заголовок--*/
+
+    .flex-container {  
+      width: 78%;    
+    }
+                 
+
+    .Text-Aditii {
+    
+    line-height: 0.302;
+    margin-left: 19.5px;  
+    margin-top: 19.5px;
+    }
+
+
+  .Text-Dollar-Basket{          
+    margin-right: 16.38px;      
+  }
+
+  .Basket{     
+    padding: 3.9px ;    
+   }    
+
+   .text-300 {      
+     
+     margin-right: 16.38px;     
+     padding-left: 7.8px;
+     padding-top: 7.8px;
+   }       
+
+                                    /*--Кнопки--*/
+      
+      .main-nav {    
+        width: 78%;        
+                      }                      
+    
+      .main-nav li a  {    
+                
+        padding: 0 14.82px 0 4.82px;
+        margin: 0 0.78px 0 0.78px ;          
+    }
+ 
+      .flex-container-main {        
+        width: 78%;       
+    }
+                              /* Блок с содержимым-1*/
+
+
+.fon {
+
+  width: 100%;
+}
+
+/*-- Блок с содержимым-1 --*/
+
+
+  .flex-container-2 {
+              
+  width: 78%;
+  padding: 39px 39px 39px 0px;  
+  margin-bottom: 23.4px;
+  }
+    
+  .logo {
+    
+    min-width: 30%;
+    padding-left:58.5px;  
+    padding-right: 74.88px;   
+    
+            
+  }
+  
+
+  .text-5  {
+    
+    padding:0 13.26px 0 13.26px;
+    margin:0 3.12px 0.78px;         
+    margin-bottom:35.1px;        
+                
+    }
+  .text-5-5  {
+  
+  padding:0 13.26px 0 13.26px;
+  margin:0 3.12px 0 0.78px;            
+  width: 78%;         
+           
+  }
+
+
+  .btn {   
+    margin-top: 46.8px;
+    margin-left: 13.26px;
+                 
+  }
+
+      
+      /*------------------------- Блок с содержимым-2------------------------------*/
+      
+
+      .flex-container-3 {                      
+        width:78%;        
+        padding-left: 20.28px;           
+    }
+
+/* --устройство картинки-бренд-- */
+
+      .flex-element-3 {
+        min-width: 40%;
+        justify-content: center;
+       /*width:265px; */         
+                        
+      }
+
+      .flex-element-4 {
+      
+        padding:0 13.26px 0 13.26px;
+        margin:0 3.12px 0 0.78px;      
+        width:265px;   
+            
+        }
+  
+      .flex-element-5 {
+        
+        padding:0 13.26px 0 13.26px;
+        margin:0 3.12px 0 0.78px;    
+        width:265px;   
+      }
+
+
+/* --устройство описания- бренд--*/
+
+      .text-brend-little{ 
+              
+      width: 60.06px;              
+      margin-right: 16.38px;              
+      padding-top: 17.16px;
+      margin-left:6.24px;
+    }
+        
+    .btn-little {
+      
+      width: 46.02px;
+      height: 24.96px;      
+      margin-top: 17.16px;
+      margin-left: 6.24px;              
+    } 
+                   
+      
+    .item-1 {         
+    width:78%;
+    }
+
+
+
+      /*------------------------- Блок с содержимым-3-------*/
+     
+
+
+      .flex-container-4 {
+        
+        width:78%;
+        margin-left: 45.24px;                  
+      }      
+
+
+        
+      .flex-element-4-1 {
+                  
+        padding: 6.24px 0px 6.24px 0px;        
+        font-size: 24.18px;          
+        margin-left: 42.12px;
+      }
+
+
+
+
+
+                                  /*-- Блок с содержимым-4--*/  
+              
+ 
+         
+  
+ /*------------------------- Блок с содержимым-4------------------------------*/
+        
+
+         
+  .flex-container-5 { 
+  width: 78%;    
+  padding-left:19.5px;     
+    }
+
+  
+  .flex-element-9 {
+    
+    width: 199.68px;
+    height: 205.14px;
+    margin: 19.5px;     
+    margin-top: 35.1px;
+    
+  }
+
+  .flex-element-9-1 {
+ 
+  width: 199.68px;
+  height: 198.9px;
+  padding-top: 22.62px;  
+  padding: 54.6px;
+ 
+}
+
+
+    /* устройство картинки*/
+
+    .text-brend-big {        
+      min-width: 30%;  /*зададим минимальную ширину*/
+      padding-top: 19.5px;          
+    }
+
+/* КНОПКА*/
+
+
+  .btn-little-2 {
+    
+    width: 57.78px;
+    height: 26.52px;
+    margin-top: 3.9px;
+    margin-left: 6.24px;            
+}
+    
+    .flex-element-3-3-2 {
+      display:flex;
+      width:101.4px;  
+      align-items: center;
+
+    }
+    
+  .flex-element-10 {
+          
+    width: 199.68px;
+    height: 205.14px;
+    margin: 19.5px;     
+    margin-top: 35.1px;       
+    }
+
+    .flex-element-10-1 {      
+      width: 199.68px;
+      height: 198.9px;
+      padding-top: 22.62px;  
+      padding: 54.6px;
+    
+    }
+  
+                                           /*--Подвал сайта--*/
+
+
+   
+/*-- Оформление подвала--*/
+
+
+
+  .flex-container-6 {                                                                                                                 
+  
+  width: 78%;     
+  padding-left:19.5px;
+  flex-wrap: nowrap;
+   }   
+
+  .flex-element-6 {
+ 
+  margin-top: 29.64px;   
+  margin-bottom:31.98px ; 
+  justify-content: flex-start;  
+  }
+
+  .flex-element-6-1-1 {
+          
+    display:flex;          
+    flex-direction: column;    
+    flex-wrap: nowrap;
+    margin-top: 31.2px;   
+    margin-bottom:31.98px ;  
+    }
+
+
+  .flex-element-6-1-2 {
+        
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex; 
+    margin-top: 31.2px;   
+    margin-bottom:31.98px ; 
+    margin-right:142.74px;   
+    }
+    
+  .text-6 {
+  
+  padding:0 13.26px 0 13.26px;
+  margin-top:31.98px;
+  display: flex;  
+  width:32%;   
+  
+  }
+
+  .text-6-1>li  {
+  
+  padding:0 13.26px 0 13.26px;
+  margin:0 3.12px 0 0.78px;
+  display: flex;
+  background-color:rgb(64,201,183);
+  width:78%; 
+    
+  }
+  
+}
+
+
+  
+
+
+
+
+
+                            /* Адаптация под мобильный*/
+
+                            @media all and (min-width: 320px) and (max-width: 768px) { 
+
+                              /*--Заголовок--*/
+
+   .flex-container {  
+     width: 100%; 
+   }
+                
+   .Text-Aditii {
+   
+   margin-left: 7.8px;  
+   margin-top: 7.8px;
+   }
+
+ .Text-Dollar-Basket{          
+   margin-right: 12.77px;      
+ }
+
+ .Basket{     
+   padding: 1.56px ;    
+  }    
+
+  .text-300 {      
+    
+    margin-right: 12.77px;     
+    padding-left: 3.12px;
+    padding-top: 3.12px;
+  }       
+
+                                   /*--Кнопки--*/
+     
+     .main-nav {    
+       width: 100%; 
+                
+                     }                      
+   
+     .main-nav li a  {    
+               
+       padding: 0 5.92px 0 5.92px;
+       margin: 0 0.312px 0 0.312px ; 
+       border-right: 1px solid rgb(255, 255, 255);
+       border-left: 1px solid rgb(255, 255, 255);
+      }
+             
+   
+     .flex-container-main {        
+       width: 100%;  
+       display:block;          
+   }
+                             /* Блок с содержимым-1*/
+
+
+
+
+ .flex-container-2 {
+             
+
+ padding: 15.6px 15.6px 15.6px 15.6px;  
+ margin-bottom: 9.36px;
+ display: block;
+ width: 90%;
+}
+   
+ .logo {
+   
+   min-width: 30%;
+   padding-left:23.4px;  
+   padding-right: 29.95px;    
+   display: block; 
+ }
+ 
+
+ .text-5  {
+   
+   padding:0 5.304px 0 5.304px;
+   margin:0 1.24px 1.24px;         
+   margin-bottom:14.04px;        
+   display: block; 
+         
+   }
+
+
+ .text-5-5  {
+ 
+ padding:0 5.304px 0 5.304px;
+ margin:0 1.24px 0 0.31px;            
+ width: 40%;         
+ display: block;      
+ }
+
+
+ .btn {   
+   margin-top: 18.72px;
+   margin-left: 5.304px;
+                
+ }
+
+
+
+      
+      /*------------------------- Блок с содержимым-2------------------------------*/
+      
+
+      .flex-container-3 {                      
+            
+        padding-left: 0px;  
+        display: block;     
+        flex-wrap:wrap;  
+        align-items: center;
+        width: 90%;
+    }
+
+/* --устройство картинки-бренд-- */
+
+      .flex-element-3 {
+        
+       display: flex;        
+       padding:0px;
+       margin:0px;      
+       width:100%;     
+       border:1px solid rgba(45,168,155, 0.4);  
+       justify-content: center;       
+       
+      }
+
+      .flex-element-4 {      
+        display: flex;        
+       padding:0px;
+       margin:0px;      
+       width:100%;   
+       border:1px solid rgba(45,168,155, 0.4);  
+       justify-content: center;
+        }
+  
+      .flex-element-5 {        
+        display: flex;        
+       padding:0px;
+       margin:0px;      
+       width:100%; 
+       border:1px solid rgba(45,168,155, 0.4); 
+       justify-content: center;
+      }
+
+
+/* --устройство описания- бренд--*/
+
+      .text-brend-little{ 
+              
+      width: 60.06px;              
+      margin-right: 16.38px;              
+      padding-top: 17.16px;
+      margin-left:6.24px;
+    }
+        
+    .btn-little {
+      
+      width: 46.02px;
+      height: 24.96px;      
+      margin-top: 17.16px;
+      margin-left: 6.24px;              
+    } 
+                   
+      
+    .item-1 {         
+    width:40%;
+    }
+
+
+     /*------------------------- Блок с содержимым-3-------*/
+    
+
+
+     .flex-container-4 {
+       
+       width:40%;
+       margin-left: 18.09px;                  
+     }      
+       
+     .flex-element-4-1 {
+                 
+       padding: 2.49px 0px 2.49px 0px;      
+       margin-left: 16.84px;
+     }
+
+
+
+
+
+                                 /*-- Блок с содержимым-4--*/  
+             
+                    
+
+
+
+ .flex-container-5 { 
+ width: 100%;    
+ justify-content: center;     
+   }
+
+   .flex-element-9 {
+    
+    width: 199.68px;
+    height: 205.14px;
+    margin: 19.5px;     
+    margin-top: 35.1px;
+    
+  }
+
+  .flex-element-9-1 {
+ 
+  width: 199.68px;
+  height: 198.9px;
+  padding-top: 22.62px;  
+  padding: 54.6px;
+ 
+}
+
+   /* устройство картинки*/
+
+   .text-brend-big {        
+     min-width: 30%;  /*зададим минимальную ширину*/
+     padding-top: 19.5px;          
+   }
+
+/* КНОПКА*/
+
+
+ .btn-little-2 {
+   
+   width: 57.78px;
+   height: 26.52px;
+   margin-top: 3.9px;
+   margin-left: 6.24px;            
+}
+   
+   .flex-element-3-3-2 {
+     display:flex;
+     width:101.4px;  
+     align-items: center;
+
+   }
+   
+ .flex-element-10 {
+         
+   width: 199.68px;
+   height: 205.14px;
+   margin: 19.5px;     
+   margin-top: 35.1px;       
+   }
+
+   .flex-element-10-1 {      
+     width: 199.68px;
+     height: 198.9px;
+     padding-top: 22.62px;  
+     padding: 54.6px;
+   
+   }
+ 
+                                          /*--Подвал сайта--*/
+
+
+  
+/*-- Оформление подвала--*/
+
+
+
+ .flex-container-6 {                                                                                                                 
+ 
+  display:block;
+  width: 100%;
+  
+  }   
+
+ .flex-element-6 {
+
+  flex-direction: row; 
+  align-items: flex-start;  
+  justify-content: center;
+  
+ }
+
+
+ .flex-element-6-1-1 {
+
+  display:block;  
+  align-items: flex-start;  
+  justify-content: center; 
+  margin-right: 0px; 
+  width: 100%;
+
+         }
+
+
+ .flex-element-6-1-2 {
+      
+  display:block;  
+  align-items: flex-start;  
+  justify-content: center; 
+  margin-right: 0px; 
+  width: 100%;
+
+   }
+   
+ .text-6 {
+ 
+ padding:0 13.26px 0 13.26px;
+ margin-top:31.98px;
+ display: block;  
+ width:100%;   
+  text-align: center;
+ }
+
+
+ .text-6-1>li  {   
+  
+  display: block;
+  background-color:rgb(64,201,183);  
+  text-align: center;
+  padding:0px; 
+  margin: 0px;    
+  } 
+ 
+   
+ }
+ 
+
+
+ 
+    
+  
+   
+ 
